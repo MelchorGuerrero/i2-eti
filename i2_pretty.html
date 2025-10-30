@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Estudio Interactiva: Ética para Ingeniería - Interrogación 2</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #0056b3; /* Azul oscuro */
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+        }
+        h2 {
+            margin-top: 40px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        details {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 10px 15px;
+        }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            padding: 10px 0;
+            color: #004085; /* Azul medio */
+            list-style: none; /* Oculta el marcador por defecto */
+            position: relative;
+            padding-left: 25px; /* Espacio para el icono personalizado */
+        }
+        summary::-webkit-details-marker { /* Oculta marcador en Chrome/Safari */
+            display: none;
+        }
+        summary::before { /* Icono personalizado (flecha) */
+            content: '▶';
+            position: absolute;
+            left: 5px;
+            top: 50%;
+            transform: translateY(-50%) rotate(0deg);
+            transition: transform 0.2s;
+            color: #0056b3;
+        }
+        details[open] summary::before {
+            transform: translateY(-50%) rotate(90deg);
+        }
+        .answer-content {
+            padding: 15px 0 5px 25px; /* Alineado con el summary */
+            border-top: 1px dashed #ccc;
+            margin-top: 10px;
+        }
+        .answer-toggle {
+            margin-bottom: 15px;
+        }
+        .answer-toggle button {
+            padding: 8px 12px;
+            margin-right: 5px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        .answer-toggle button.active {
+            background-color: #0056b3;
+            color: white;
+            border-color: #004085;
+        }
+        .answer-version {
+             margin-top: 10px;
+        }
+        .key-points {
+            background-color: #e2f0ff; /* Azul claro */
+            border: 1px solid #b8daff;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+        .key-points h4 {
+            margin-top: 0;
+            color: #004085;
+        }
+        strong, b {
+            color: #004085;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 40px 0;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #e2f0ff;
+            color: #004085;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Guía de Estudio Interactiva: Ética para Ingeniería - Interrogación 2</h1>
+        <p>Haz clic en cada pregunta para desplegarla. Luego, elige si quieres ver la "Respuesta Técnica" o la "Respuesta Sencilla".</p>
+
+        <section id="rawls">
+            <h2>1. Rawls: El debate sobre la justicia ⚖️</h2>
+            <details>
+                <summary>¿Por qué, siendo parte del sector más favorecido de la sociedad, se debe aceptar contribuir a los estratos más vulnerables en razón de la justicia?</summary>
+                <div class="answer-content">
+                    <div class="answer-toggle">
+                        <button class="active" onclick="showAnswer(this, 'technical')">Respuesta Técnica</button>
+                        <button onclick="showAnswer(this, 'simple')">Respuesta Sencilla</button>
+                    </div>
+                    <div class="answer-version technical-answer" style="display: block;">
+                        <p>Se debe aceptar contribuir a los estratos más vulnerables en razón de la justicia debido al <strong>Principio de la Diferencia</strong> propuesto por Rawls. Este principio surge bajo la <strong>Regla Maximin</strong> (maximizar el mínimo) en la "posición original" (una situación hipotética de igualdad bajo el "velo de la ignorancia").</p>
+                        <p>El razonamiento es el siguiente:</p>
+                        <ul>
+                            <li><strong>Regla Maximin:</strong> Desde la posición original, donde nadie sabe qué lugar ocupará en la sociedad, cada persona elegiría los principios que garanticen el mejor resultado para quienes estén en la peor situación. Esto busca maximizar el mínimo nivel de bienestar y asegurar condiciones dignas y seguras incluso para el grupo menos favorecido.</li>
+                            <li><strong>Principio de la Diferencia:</strong> Este principio establece que las desigualdades sociales y económicas son <strong>justas solo si</strong> forman parte de un esquema que <strong>mejora las expectativas de los miembros menos favorecidos de la sociedad</strong>. Las expectativas más altas de aquellos mejor situados son justas únicamente si benefician a todos.</li>
+                            <li><strong>Motivación de la Persona:</strong> Rawls postula una concepción de la persona como <strong>racional</strong> (persigue su interés) y <strong>razonable</strong> (es capaz de un sentido de justicia y de preocuparse por los demás). Desde esta perspectiva, las partes en la posición original acordarían el Principio de la Diferencia, ya que es lógico que cada individuo se imagine a sí mismo en la situación más desfavorable y escoja los principios que puedan beneficiarle en ese caso, abrazando la regla maximin.</li>
+                        </ul>
+                        <p>En resumen, la contribución del sector favorecido se justifica porque sus ventajas solo son justas si son parte de un esquema que también beneficia a los que están peor, garantizando un mínimo equitativo de bienestar social.</p>
+                        <div class="key-points">
+                            <h4>Puntos Clave (Técnico):</h4>
+                            <ul>
+                                <li><strong>Posición Original y Velo de Ignorancia:</strong> Experimento mental para elegir principios justos sin conocimiento de la posición social futura.</li>
+                                <li><strong>Principio de la Diferencia:</strong> Las desigualdades socioeconómicas son justificables solo si maximizan el beneficio de los menos aventajados.</li>
+                                <li><strong>Regla Maximin:</strong> Estrategia de decisión bajo incertidumbre que elige la alternativa cuyo peor resultado posible es mejor que el peor resultado de cualquier otra alternativa.</li>
+                                <li><strong>Persona Racional y Razonable:</strong> Capacidad de perseguir fines propios (racionalidad) y de proponer y acatar términos justos de cooperación (razonabilidad).</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="answer-version simple-answer" style="display: none;">
+                        <p>Deben ayudar porque, según Rawls, las **desigualdades** (tener más que otros) **solo son justas si también benefician a los que están peor**. Esto se llama el **Principio de la Diferencia**.</p>
+                        <p>La idea viene de imaginar que nadie sabe qué posición tendrá en la sociedad (ricos, pobres, etc.), esto es el **"velo de la ignorancia"**. En esa situación, todos elegirían reglas que aseguren que, incluso si les toca estar en la peor posición, tendrán lo necesario para una vida digna. Es como asegurarse de que el "piso mínimo" sea lo más alto posible para todos (Regla **Maximin**).</p>
+                        <p>Así, los beneficios de los más favorecidos se aceptan solo si ayudan a mejorar la situación de los menos favorecidos.</p>
+                        <div class="key-points">
+                             <h4>Puntos Clave (Sencillo):</h4>
+                             <ul>
+                                 <li><strong>Imagina que no sabes quién serás:</strong> ¿Qué reglas elegirías para que la sociedad sea justa, sin saber si serás rico o pobre? (Velo de Ignorancia).</li>
+                                 <li><strong>Ayudar al que está peor:</strong> Las diferencias de riqueza son justas solo si ayudan a mejorar la vida de los que tienen menos (Principio de la Diferencia).</li>
+                                 <li><strong>Ponerse en el peor caso:</strong> Al no saber dónde caerás, eliges lo mejor para el que esté en la peor situación (Regla Maximin).</li>
+                                 <li><strong>Somos egoístas pero justos:</strong> Buscamos nuestro bien, pero también entendemos la importancia de reglas justas para todos.</li>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+
+        <hr>
+
+        <section id="jonas">
+            <h2>2. Jonas: El principio de responsabilidad 🌍</h2>
+            <details>
+                <summary>¿Cuáles son los factores que han producido un cambio sustancial en el tipo de acción humana a partir del siglo XX?</summary>
+                <div class="answer-content">
+                    <div class="answer-toggle">
+                        <button class="active" onclick="showAnswer(this, 'technical')">Respuesta Técnica</button>
+                        <button onclick="showAnswer(this, 'simple')">Respuesta Sencilla</button>
+                    </div>
+                    <div class="answer-version technical-answer" style="display: block;">
+                        <p>El factor principal es el <strong>desarrollo de la técnica moderna</strong> y sus nuevas capacidades, que han alterado la naturaleza de la acción humana.</p>
+                        <p>Los cambios sustanciales son:</p>
+                        <ol>
+                            <li><strong>Nuevo Objeto de la Acción Humana:</strong> La acción humana ahora incluye la <strong>entera biosfera del planeta</strong> (la naturaleza), un objeto de orden totalmente nuevo y con dimensiones imponentes.</li>
+                            <li><strong>Vulnerabilidad de la Naturaleza:</strong> La naturaleza, antes considerada inalterada e inmutable, es ahora <strong>tremendamente vulnerable</strong> a la intervención técnica humana, lo que no se sospechaba antes.</li>
+                            <li><strong>Alcance Aumentado y Duradero de los Efectos:</strong> La limitación a la <strong>proximidad espacial y la contemporaneidad ha desaparecido</strong>. Las acciones tienen un creciente alcance, con efectos a <strong>largo plazo</strong> (dilatación temporal) e <strong>irreversibles</strong>.</li>
+                            <li><strong>Carácter Acumulativo de la Acción:</strong> Los efectos de la praxis técnica <strong>se suman</strong> (son acumulativos), transformando la situación para el obrar y el ser posteriores de manera progresivamente diferente y, en última instancia, amenazando la condición básica de toda la serie (la existencia misma de la especie).</li>
+                            <li><strong>Tecnología como "Vocación":</strong> La *techné* moderna se ha transformado en un <strong>infinito impulso hacia adelante</strong> y la empresa más importante de la especie, buscando el máximo dominio sobre las cosas y los propios hombres, lo que le da una significación ética central.</li>
+                            <li><strong>Hombre como Objeto de la Técnica:</strong> El ser humano se incluye a sí mismo entre los objetos de la técnica (<strong>control de la conducta, manipulación genética</strong>), con el potencial de rehacer innovadoramente al inventor y fabricante de todo lo demás, cuestionando la "condición humana" como un dato definitivo.</li>
+                        </ol>
+                    </div>
+                     <div class="answer-version simple-answer" style="display: none;">
+                        <p>El gran cambio viene por el **desarrollo de la tecnología moderna**. Antes, nuestras acciones tenían efectos pequeños y cercanos. Ahora, con la tecnología:</p>
+                        <ol>
+                            <li><strong>Podemos afectar todo el planeta:</strong> Nuestras acciones impactan la **biosfera completa**.</li>
+                            <li><strong>La naturaleza es frágil:</strong> Podemos **dañarla** de formas nuevas.</li>
+                            <li><strong>Efectos a largo plazo:</strong> Lo que hacemos hoy tiene consecuencias **mucho tiempo después** y puede ser **irreversible**.</li>
+                            <li><strong>Efectos acumulativos:</strong> Los impactos **se suman**, cambiando el futuro y poniendo en riesgo la existencia.</li>
+                            <li><strong>Tecnología como meta principal:** Se ha vuelto central para la humanidad.</li>
+                            <li><strong>Manipulación del ser humano:** Podemos modificar al propio ser humano (**controlar conducta, cambiar genes**).</li>
+                        </ol>
+                    </div>
+                </div>
+            </details>
+            <details>
+                <summary>¿Qué impacto tienen los avances científico-tecnológicos en la ingeniería desde el punto de vista ético?</summary>
+                 <div class="answer-content">
+                    <div class="answer-toggle">
+                        <button class="active" onclick="showAnswer(this, 'technical')">Respuesta Técnica</button>
+                        <button onclick="showAnswer(this, 'simple')">Respuesta Sencilla</button>
+                    </div>
+                    <div class="answer-version technical-answer" style="display: block;">
+                        <p>El impacto ético es profundo, ya que la <strong>neutralidad moral de la relación técnica con la materia ha quedado abolida</strong>.</p>
+                        <p>La nueva naturaleza de la acción y su alcance exigen una <strong>ética de la previsión y la responsabilidad</strong>:</p>
+                        <ul>
+                            <li><strong>Responsabilidad por el Futuro:</strong> Surge la obligación de <strong>garantizar la continuidad indefinida de la humanidad en la Tierra</strong> y de proteger la integridad del hombre futuro.</li>
+                            <li><strong>Nuevo Imperativo:</strong> El imperativo categórico de Kant ("Obra de tal modo que puedas querer también que tu máxima se convierta en ley universal") se sustituye por uno adecuado a la nueva escala: <strong>"Obra de tal modo que los efectos de tu acción sean compatibles con la permanencia de una vida humana auténtica en la Tierra"</strong>.</li>
+                            <li><strong>Requerimiento de Sabiduría:</strong> El <strong>saber se convierte en un deber urgente</strong> de igual escala que la extensión causal de la acción, y el reconocimiento de la ignorancia de las consecuencias últimas se vuelve parte de la ética, exigiendo una <strong>moderación responsable</strong>.</li>
+                            <li><strong>Abolición de la Frontera:</strong> La frontera entre "Estado" y "Naturaleza" ha sido abolida; la ética debe <strong>invadir la esfera de la producción</strong> en forma de política pública, orientando decisiones que afectan al planeta y las generaciones futuras.</li>
+                        </ul>
+                         <div class="key-points">
+                            <h4>Puntos Clave (Técnico):</h4>
+                            <ul>
+                                <li><strong>Fin de la Neutralidad Ética:</strong> La tecnología ya no es moralmente neutral debido a su poder y alcance.</li>
+                                <li><strong>Ética de la Previsión y Responsabilidad:</strong> Necesidad de considerar consecuencias a largo plazo y la supervivencia humana.</li>
+                                <li><strong>Nuevo Imperativo Categórico (Jonas):</strong> Mandato ético de preservar la posibilidad de vida humana futura.</li>
+                                <li><strong>Deber de Saber y Humildad:</strong> La responsabilidad exige conocimiento predictivo, pero sus límites imponen moderación.</li>
+                                <li><strong>Dimensión Política de la Ética Tecnológica:</strong> La ética debe guiar la política pública en relación con la tecnología.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="answer-version simple-answer" style="display: none;">
+                        <p>Los avances hacen que la ingeniería ya **no sea moralmente neutra**. Como ahora tenemos tanto poder para afectar el futuro y el planeta, la ingeniería necesita una **nueva ética basada en la previsión y la responsabilidad**:</p>
+                        <ul>
+                            <li><strong>Pensar en el futuro:** Tenemos la obligación de **asegurar que la humanidad pueda seguir existiendo**.</li>
+                            <li><strong>Nuevo mandato:** Hay que actuar de forma que los **efectos no destruyan la posibilidad de una vida humana futura**.</li>
+                            <li><strong>Saber es un deber:** Necesitamos **saber sobre las consecuencias**, pero como no lo sabemos todo, debemos ser **humildes y prudentes**.</li>
+                            <li><strong>Ética en la producción:** La ética debe guiar la **creación y uso de la tecnología**, pensando en el impacto global y a largo plazo.</li>
+                        </ul>
+                        <div class="key-points">
+                             <h4>Puntos Clave (Sencillo):</h4>
+                             <ul>
+                                 <li><strong>Ingeniería ya no es neutral:</strong> Lo que hacemos con la tecnología tiene consecuencias morales importantes.</li>
+                                 <li><strong>Responsabilidad por el futuro:** Debemos pensar en cómo nuestras acciones afectan a las próximas generaciones y al planeta.</li>
+                                 <li><strong>Nueva regla de oro:** "No pongas en peligro el futuro de la humanidad".</li>
+                                 <li><strong>Saber y ser prudentes:** Es importante investigar las consecuencias, pero como no podemos prever todo, hay que actuar con cuidado.</li>
+                                 <li><strong>La ética guía la política:** Las decisiones sobre tecnología deben considerar estos principios éticos.</li>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+
+        <hr>
+
+        <section id="nussbaum">
+            <h2>3. Nussbaum: Las capacidades humanas 🌸</h2>
+            <details>
+                <summary>¿Qué es una capacidad? Mencione tres capacidades dentro del enfoque del desarrollo humano. Explique una.</summary>
+                <div class="answer-content">
+                    <div class="answer-toggle">
+                        <button class="active" onclick="showAnswer(this, 'technical')">Respuesta Técnica</button>
+                        <button onclick="showAnswer(this, 'simple')">Respuesta Sencilla</button>
+                    </div>
+                    <div class="answer-version technical-answer" style="display: block;">
+                        <p>Una <strong>capacidad</strong> (capability) es lo que una persona es <strong>realmente capaz de hacer y de ser</strong>. El enfoque de las capacidades, desarrollado por Martha Nussbaum, se centra en evaluar la calidad de vida y la justicia política en función de las <strong>oportunidades y libertades reales</strong> que tiene una persona para desarrollar ciertas funciones de importancia central, no solo en la satisfacción o en los recursos disponibles.</p>
+                        <p><strong>Tres Capacidades Centrales para el Funcionamiento Humano</strong>:</p>
+                        <ol>
+                            <li><strong>Vida:</strong> Ser capaz de vivir hasta el final una vida humana de extensión normal; no morir prematuramente, o antes de que la propia vida se haya reducido de tal modo que ya no merezca vivirse.</li>
+                            <li><strong>Salud Corporal:</strong> Ser capaz de tener buena salud, incluyendo la salud reproductiva; estar adecuadamente alimentado; tener un techo adecuado.</li>
+                            <li><strong>Razón Práctica:</strong> Ser capaz de <strong>plasmar una concepción del bien y de comprometerse en una reflexión crítica acerca del planeamiento de la propia vida</strong>. Esto implica la protección de la libertad de consciencia. Es una de las dos capacidades que se destacan por su <strong>especial importancia</strong>, ya que organiza y abarca todas las demás, haciendo que su persecución sea verdaderamente humana.</li>
+                        </ol>
+                        <div class="key-points">
+                            <h4>Puntos Clave (Técnico):</h4>
+                            <ul>
+                                <li><strong>Definición de Capacidad:</strong> Oportunidades y libertades reales de una persona para ser y hacer aquello que valora como constitutivo de una vida buena.</li>
+                                <li><strong>Enfoque Central:</strong> Evaluar la calidad de vida y la justicia en términos de capacidades, no de recursos o utilidad.</li>
+                                <li><strong>Lista de Capacidades Centrales:</strong> Conjunto de capacidades consideradas fundamentales para una vida digna (vida, salud, integridad corporal, sentidos/imaginación/pensamiento, emociones, razón práctica, afiliación, otras especies, juego, control sobre el entorno).</li>
+                                <li><strong>Nivel Mínimo Umbral:</strong> Principio político según el cual la justicia exige que todos los ciudadanos alcancen un nivel mínimo de cada capacidad central.</li>
+                                <li><strong>Capacidades Básicas, Internas y Combinadas:</strong> Distinción entre dotación innata, habilidades desarrolladas y la conjunción de habilidades internas con oportunidades externas favorables (el objetivo político).</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="answer-version simple-answer" style="display: none;">
+                         <p>Una **capacidad** es **aquello que una persona es realmente capaz de hacer y ser**. No se trata solo de cuántos recursos tiene, sino de si tiene las **oportunidades reales** para vivir una vida plenamente humana.</p>
+                        <p><strong>Tres Capacidades Centrales:**</p>
+                        <ol>
+                            <li>**Vida:** Poder vivir una vida de duración normal.</li>
+                            <li>**Salud Corporal:** Poder tener buena salud, comida y casa.</li>
+                            <li>**Razón Práctica:** Poder **pensar por ti mismo sobre qué es bueno y cómo quieres vivir tu vida**. Incluye tener libertad para decidir tus creencias. Es clave porque te permite usar las otras capacidades de forma humana.</li>
+                        </ol>
+                        <div class="key-points">
+                             <h4>Puntos Clave (Sencillo):</h4>
+                             <ul>
+                                 <li><strong>¿Qué puedes hacer y ser?:** La calidad de vida se mide por tus oportunidades reales, no solo por lo que tienes.</li>
+                                 <li>**Lista de cosas básicas:** Hay capacidades esenciales para vivir dignamente (vida, salud, pensar por ti mismo, etc.).</li>
+                                 <li>**Mínimo para todos:** La sociedad justa debe asegurar que todos tengan un nivel básico de estas capacidades.</li>
+                                 <li>**Dignidad:** La idea es que cada persona es valiosa y merece poder desarrollarse.</li>
+                                 <li>**Tipos de "poder hacer":** Tienes capacidades desde que naces (básicas), las desarrollas (internas), y necesitas que el entorno te permita usarlas (combinadas).</li>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+
+        <hr>
+
+         <section id="bilbao">
+            <h2>4. Bilbao, Fuentes y Guibert: La profesión de la ingeniería 🔧</h2>
+            <details>
+                <summary>¿Qué es una profesión?</summary>
+                <div class="answer-content">
+                    <div class="answer-toggle">
+                        <button class="active" onclick="showAnswer(this, 'technical')">Respuesta Técnica</button>
+                        <button onclick="showAnswer(this, 'simple')">Respuesta Sencilla</button>
+                    </div>
+                    <div class="answer-version technical-answer" style="display: block;">
+                         <p>Una profesión es una <strong>actividad social cooperativa</strong> cuya <strong>meta interna</strong> es proporcionar a la sociedad un <strong>bien específico e indispensable</strong> para su supervivencia como sociedad humana, para lo cual se requiere el concurso de la comunidad de profesionales que como tales se identifica ante la sociedad.</p>
+                        <p>Según el sociólogo González Anleo, se caracteriza por ser:</p>
+                        <ul>
+                            <li>Un <strong>servicio a la sociedad único, definido y esencial</strong>.</li>
+                            <li>Considerado como una <strong>vocación</strong>, implicando dedicación exclusiva e identificación con los ideales del servicio.</li>
+                            <li>Basado fundamentalmente en <strong>conocimientos y técnicas de carácter intelectual</strong>.</li>
+                            <li>Que requiere un período previo de <strong>preparación especializada y habitualmente formal</strong> en una institución educativa.</li>
+                            <li>Demanda un amplio campo de <strong>autonomía</strong>, con el correlato de la asunción de las <strong>responsabilidades</strong> inherentes a la actividad.</li>
+                        </ul>
+                         <div class="key-points">
+                            <h4>Puntos Clave (Técnico):</h4>
+                            <ul>
+                                <li><strong>Definición Sociológica:</strong> Actividad especializada y permanente que provee ingresos y fundamento económico.</li>
+                                <li><strong>Bien Interno (Cortina):</strong> Meta específica e indispensable que la profesión aporta a la sociedad.</li>
+                                <li><strong>Características Clave:</strong> Servicio esencial, vocación, base intelectual, formación especializada, autonomía y responsabilidad.</li>
+                                <li><strong>Proceso de Profesionalización (Wilensky):</strong> Etapas por las que una ocupación se convierte en profesión (dedicación plena, formación, asociación, regulación legal, código ético).</li>
+                                <li><strong>Riesgo del Profesionalismo:</strong> Usar el estatus profesional para justificar privilegios corporativos en lugar de servir al bien común.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="answer-version simple-answer" style="display: none;">
+                         <p>Una **profesión** es un tipo de **trabajo en grupo** que tiene como **objetivo principal** darle a la sociedad algo **específico y muy necesario** para que funcione bien. Los que hacen este trabajo forman una comunidad.</p>
+                        <p>Se reconoce porque:</p>
+                        <ul>
+                            <li>Ofrece un **servicio único y clave**.</li>
+                            <li>Se siente como una **vocación** (algo a lo que te dedicas con interés).</li>
+                            <li>Usa **conocimientos especiales**, más bien de pensar.</li>
+                            <li>Necesita **estudios o preparación** específica.</li>
+                            <li>Tiene cierta **libertad** para hacer su trabajo, pero también **responsabilidad**.</li>
+                        </ul>
+                        <div class="key-points">
+                             <h4>Puntos Clave (Sencillo):</h4>
+                             <ul>
+                                 <li><strong>Trabajo especializado en grupo:** Un grupo de gente que hace algo específico y necesario para la sociedad.</li>
+                                 <li>**Meta importante:** Cada profesión tiene un "bien interno" o propósito que la justifica (ej. curar, enseñar, construir).</li>
+                                 <li>**Ingeniería = Mejoras técnicas:** El bien interno de la ingeniería es mejorar la vida de la gente usando la tecnología.</li>
+                                 <li>**No solo por dinero:** Se espera que el profesional se interese por hacer bien su trabajo, no solo por ganar plata.</li>
+                                 <li>**Cuidado con el "profesionalismo":** Es malo cuando el grupo usa su estatus solo para defender sus propios intereses en vez de ayudar a la sociedad.</li>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </details>
+            <details>
+                <summary>¿Cuál es el bien interno de la profesión de ingeniería?</summary>
+                <div class="answer-content">
+                    <div class="answer-toggle">
+                        <button class="active" onclick="showAnswer(this, 'technical')">Respuesta Técnica</button>
+                        <button onclick="showAnswer(this, 'simple')">Respuesta Sencilla</button>
+                    </div>
+                    <div class="answer-version technical-answer" style="display: block;">
+                        <p>El bien intrínseco o interno de la profesión de ingeniería está asociado a las <strong>mejoras sociales por medios técnicos</strong>. Se expresa en la <strong>posibilidad de cambiar la vida humana, a lograr mejoras en la vida gracias a la aplicación de la técnica</strong>.</p>
+                        <p>Más concretamente, implica:</p>
+                        <ul>
+                            <li>La <strong>producción</strong> de maquinaria, elementos electrónicos, dispositivos y productos nuevos de todo tipo que supongan <strong>bienestar</strong>.</li>
+                            <li>La <strong>aplicación</strong> de avances científicos e ideas a bienes o servicios que la sociedad necesite, lo que se traduce en <strong>proyectos pequeños y grandes que afectan a la sociedad</strong>.</li>
+                            <li>El <strong>desarrollo correcto de proyectos técnicos</strong>, donde lo "correcto" implica estar bien basado en leyes físicas y conocimientos científicos, y también atender a lo que la sociedad demanda desde criterios de <strong>justicia</strong> y considerando las <strong>consecuencias éticas</strong>.</li>
+                        </ul>
+                        <p>En esencia, la ingeniería es el <strong>interfaz o puente</strong> entre la ciencia y la técnica, por un lado, y las <strong>necesidades humanas</strong>, por el otro.</p>
+                        </div>
+                    <div class="answer-version simple-answer" style="display: none;">
+                        <p>El bien interno (la meta principal) de la ingeniería es lograr **mejoras sociales usando medios técnicos**. Es la **capacidad de mejorar la vida humana aplicando la técnica**.</p>
+                        <p>Esto incluye:</p>
+                        <ul>
+                            <li>**Crear** cosas (máquinas, aparatos, etc.) que traigan **bienestar**.</li>
+                            <li>**Aplicar** la ciencia para crear bienes y servicios útiles, a través de **proyectos** que impactan a la sociedad.</li>
+                            <li>Desarrollar **proyectos técnicos de forma "correcta"**: que funcionen bien y sean buenos para la sociedad (considerando la **justicia** y las **consecuencias**).</li>
+                        </ul>
+                        <p>La ingeniería es como un **puente** entre la ciencia y las **necesidades de las personas**.</p>
+                        </div>
+                </div>
+            </details>
+        </section>
+
+        <hr>
+
+        <section id="cortina">
+            <h2>5. Cortina: Ética de las profesiones ✨</h2>
+            <details>
+                <summary>Defina tres rasgos de las profesiones desde el punto de vista ético.</summary>
+                 <div class="answer-content">
+                    <div class="answer-toggle">
+                        <button class="active" onclick="showAnswer(this, 'technical')">Respuesta Técnica</button>
+                        <button onclick="showAnswer(this, 'simple')">Respuesta Sencilla</button>
+                    </div>
+                    <div class="answer-version technical-answer" style="display: block;">
+                         <p>Tres rasgos de las profesiones desde el punto de vista ético, según Adela Cortina:</p>
+                        <ol>
+                            <li><strong>Servicio Específico e Indispensable:</strong> Una profesión es una actividad social que presta un <strong>servicio específico e indispensable para la producción y reproducción de una vida humana digna</strong>. La profesión justifica su existencia por perseguir unos <strong>bienes internos</strong> a ella, bienes que ninguna otra actividad puede proporcionar.</li>
+                            <li><strong>Vocación y Aptitudes:</strong> La profesión se considera una suerte de <strong>vocación</strong>, lo que significa que exige contar con <strong>aptitudes determinadas</strong> para su ejercicio y un <strong>peculiar interés por la meta</strong> que esa actividad concreta persigue.</li>
+                            <li><strong>Compromiso con el Fin de la Actividad (La Excelencia):</strong> Al ingresar en la profesión, el profesional se <strong>compromete a perseguir las metas de esa actividad social</strong>. La ética de las profesiones persigue la <strong>"excelencia"</strong> (*aretái*) en la vida corriente, implicando competir consigo mismo para ofrecer un buen producto profesional, sin conformarse con el "mínimo legal".</li>
+                        </ol>
+                         <div class="key-points">
+                            <h4>Puntos Clave (Técnico):</h4>
+                            <ul>
+                                <li><strong>Diferenciación Público/Político:</strong> El ámbito público trasciende lo meramente político-estatal, incluyendo a la sociedad civil (empresas, profesiones, etc.).</li>
+                                <li><strong>Bien Interno como Legitimación:</strong> Cada profesión se justifica por buscar un bien específico indispensable que solo ella puede proveer.</li>
+                                <li><strong>Prevalencia de Razones sobre Motivos:</strong> Las motivaciones personales (lucro, prestigio) deben subordinarse a las razones derivadas del bien interno de la profesión para evitar la corrupción.</li>
+                                <li><strong>Ética Profesional como Búsqueda de Excelencia:</strong> El *ethos profesional* exige aspirar a la excelencia (*areté*), superando el *ethos burocrático* del cumplimiento mínimo.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="answer-version simple-answer" style="display: none;">
+                        <p>Tres características éticas importantes de las profesiones:</p>
+                        <ol>
+                            <li>**Dan un Bien Interno Necesario:** Cada profesión existe para entregar algo **esencial para que la gente viva dignamente** (su "bien interno"), como la salud (medicina) o el conocimiento (educación).</li>
+                            <li>**Requieren Vocación y Aptitudes:** Ser profesional implica tener ciertas **habilidades** y un **interés genuino por la meta** de ese trabajo, no solo por ganar dinero.</li>
+                            <li>**Exigen Compromiso con la Excelencia:** El profesional se compromete a **buscar la meta de su profesión** y a hacerlo **lo mejor posible** (excelencia), no solo cumplir con lo mínimo.</li>
+                        </ol>
+                         <div class="key-points">
+                             <h4>Puntos Clave (Sencillo):</h4>
+                             <ul>
+                                 <li><strong>Lo público es más que el gobierno:** Incluye lo que hacen las empresas, los medios, las organizaciones y las profesiones.</li>
+                                 <li>**Cada profesión tiene su meta:** Esa meta (bien interno) es lo que la hace necesaria y valiosa.</li>
+                                 <li>**Hazlo por la razón correcta:** Tus motivos personales (plata, fama) no deben ir contra la meta de tu profesión.</li>
+                                 <li>**Busca ser excelente:** No te conformes con hacer lo mínimo; intenta hacer tu trabajo lo mejor posible.</li>
+                                 <li>**No corrompas tu profesión:** Si pones tus intereses antes que la meta de tu profesión, la dañas.</li>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </details>
+        </section>
+
+        <hr>
+
+        <section id="codigo-ingenieros">
+            <h2>6. Código de Ética del Colegio de Ingenieros de Chile 🇨🇱</h2>
+            <details>
+                <summary>¿Cuáles son los niveles de control normativo? Explique uno.</summary>
+                <div class="answer-content">
+                     <div class="answer-toggle">
+                        <button class="active" onclick="showAnswer(this, 'technical')">Respuesta Técnica</button>
+                        <button onclick="showAnswer(this, 'simple')">Respuesta Sencilla</button>
+                    </div>
+                    <div class="answer-version technical-answer" style="display: block;">
+                         <p>El Código no los enumera como "niveles de control normativo" explícitos, pero se pueden identificar los siguientes mecanismos de regulación y control:</p>
+                        <ol>
+                            <li><strong>Normas Generales (Principios Éticos y Deberes Fundamentales):</strong> Establecen los principios y conductas básicas frente a la sociedad, mandantes, pares y comunidad.</li>
+                            <li><strong>Disposiciones Detalladas por Ámbito de Relación:</strong> Normas específicas contenidas en los Títulos II al VI (Ejercicio Profesional, Relaciones con Profesionales, Mandantes, Comunidad, Colegio).</li>
+                            <li><strong>Investigación y Sanción (Tribunal de Ética):</strong>
+                                <ul>
+                                    <li><strong>Explicación:</strong> Es el mecanismo formal y obligatorio. El <strong>Tribunal de Ética</strong> investiga transgresiones (por denuncia o de oficio). Si se prueba la falta, puede aplicar <strong>sanciones</strong>. Asegura el cumplimiento forzoso del Código, que se presume conocido por todos los colegiados.</li>
+                                </ul>
+                            </li>
+                        </ol>
+                        </div>
+                    <div class="answer-version simple-answer" style="display: none;">
+                        <p>El Código tiene diferentes "tipos" de reglas o formas de asegurar que los ingenieros actúen bien:</p>
+                        <ol>
+                            <li>**Principios Generales:** Ideas básicas sobre cómo debe ser un buen ingeniero (ser ético, cuidar la seguridad, ser competente).</li>
+                            <li>**Reglas Específicas:** Normas más concretas sobre qué hacer o no hacer en situaciones particulares (con clientes, con colegas, con la sociedad, etc.).</li>
+                            <li>**Tribunal de Ética:**
+                                <ul>
+                                   <li>**Explicación:** Es como un "juez" dentro del Colegio de Ingenieros. Si alguien piensa que un ingeniero no cumplió el código, puede denunciarlo. El Tribunal **investiga** y, si comprueba que hubo una falta, puede **castigar** (sancionar) al ingeniero. Esto asegura que el código se tome en serio.</li>
+                                </ul>
+                            </li>
+                        </ol>
+                         <div class="key-points">
+                             <h4>Puntos Clave (Sencillo):</h4>
+                             <ul>
+                                 <li>**Es obligatorio:** Los ingenieros colegiados deben seguir este código.</li>
+                                 <li>**Tiene partes:** Explica los principios básicos y luego da reglas más detalladas para distintas situaciones (trabajo, colegas, clientes, sociedad, colegio).</li>
+                                 <li>**Lo más importante:** Cuidar la seguridad, ser competente, honesto, leal, proteger el medio ambiente, no aceptar corrupción.</li>
+                                 <li>**Hay consecuencias:** Si no cumples el código, el Tribunal de Ética te puede investigar y sancionar.</li>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </details>
+            <details>
+                <summary>¿Cuáles son las partes del Código de Ética del Colegio de Ingenieros de Chile?</summary>
+                <div class="answer-content">
+                     <div class="answer-toggle">
+                        <button class="active" onclick="showAnswer(this, 'technical')">Respuesta Técnica</button>
+                        <button onclick="showAnswer(this, 'simple')">Respuesta Sencilla</button>
+                    </div>
+                    <div class="answer-version technical-answer" style="display: block;">
+                        <p>El Código de Ética del Colegio de Ingenieros de Chile está compuesto por las siguientes partes, según su índice:</p>
+                        <ol>
+                            <li><strong>Fundamento</strong></li>
+                            <li><strong>TÍTULO I: De las Normas Generales.</strong></li>
+                            <li><strong>TÍTULO II: Del Ejercicio Profesional</strong></li>
+                            <li><strong>TÍTULO III: De las relaciones entre profesionales.</strong></li>
+                            <li><strong>TÍTULO IV: De las Relaciones con Mandantes</strong></li>
+                            <li><strong>TÍTULO V: De las Relaciones con la Comunidad.</strong></li>
+                            <li><strong>TÍTULO VI: De las Relaciones con el Colegio</strong></li>
+                        </ol>
+                        </div>
+                    <div class="answer-version simple-answer" style="display: none;">
+                        <p>Las partes principales del Código son:</p>
+                        <ol>
+                            <li>**Fundamento:** Por qué existe el código.</li>
+                            <li>**Título I:** Reglas Generales.</li>
+                            <li>**Título II:** Sobre cómo trabajar como ingeniero.</li>
+                            <li>**Título III:** Sobre cómo relacionarse con otros ingenieros.</li>
+                            <li>**Título IV:** Sobre cómo relacionarse con clientes o jefes.</li>
+                            <li>**Título V:** Sobre la relación con la sociedad.</li>
+                            <li>**Título VI:** Sobre la relación con el Colegio de Ingenieros.</li>
+                        </ol>
+                        </div>
+                </div>
+            </details>
+        </section>
+
+        <hr>
+
+        <section id="harris">
+            <h2>7. Harris: The Good Engineers 💡</h2>
+            <details>
+                <summary>¿Cuál es la diferencia entre ética reactiva y ética proactiva?</summary>
+                <div class="answer-content">
+                     <div class="answer-toggle">
+                        <button class="active" onclick="showAnswer(this, 'technical')">Respuesta Técnica</button>
+                        <button onclick="showAnswer(this, 'simple')">Respuesta Sencilla</button>
+                    </div>
+                    <div class="answer-version technical-answer" style="display: block;">
+                         <p>Harris distingue entre <strong>"Ética Preventiva" (Preventive Ethics)</strong>, que sería la **reactiva**, y <strong>"Ética Aspiracional" (Aspirational Ethics)</strong>, que sería la **proactiva**.</p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Característica</th>
+                                    <th>Ética Preventiva (Reactiva)</th>
+                                    <th>Ética Aspiracional (Proactiva)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Orientación</strong></td>
+                                    <td>Negativa</td>
+                                    <td>Positiva</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Objetivo</strong></td>
+                                    <td><strong>Prevención</strong> de mala conducta y daños tecnológicos.</td>
+                                    <td><strong>Promover el bien humano</strong> usando el conocimiento profesional.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Enfoque</strong></td>
+                                    <td>Basada en <strong>reglas prohibitivas</strong>.</td>
+                                    <td>Basada en <strong>virtudes</strong> (discreción, juicio, motivación interna).</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                         <div class="key-points">
+                             <h4>Puntos Clave (Técnico):</h4>
+                             <ul>
+                                <li><strong>Ética Preventiva (Reactiva):</strong> Enfocada en la prevención de mala conducta y daños, a través de reglas mayormente prohibitivas. Corresponde al estado actual predominante de la ética de la ingeniería.</li>
+                                <li><strong>Ética Aspiracional (Proactiva):</strong> Orientada al uso del conocimiento profesional para promover activamente el bien humano. Se enfoca en virtudes, ideales y motivaciones internas que van más allá de las reglas mínimas.</li>
+                                <li><strong>Limitación de las Reglas:</strong> No pueden capturar adecuadamente la necesidad de discreción, juicio, conocimiento contextual (background) y motivaciones internas inherentes a la práctica profesional compleja.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="answer-version simple-answer" style="display: none;">
+                         <p>La diferencia es simple:</p>
+                        <ul>
+                            <li>**Ética Reactiva (Preventiva):** Se preocupa de **evitar hacer daño** y de no meter la pata. Se basa en **reglas** que dicen "no hagas esto". Es como poner parches para que no ocurran desastres.</li>
+                            <li>**Ética Proactiva (Aspiracional):** Va más allá de solo evitar lo malo. Busca **hacer el bien** y usar la ingeniería para **mejorar el mundo**. No se basa solo en reglas, sino en ser un **buen profesional** con buenas intenciones y buen juicio (virtudes).</li>
+                        </ul>
+                         <div class="key-points">
+                             <h4>Puntos Clave (Sencillo):</h4>
+                             <ul>
+                                 <li><strong>Reactiva = No hacer mal:** Evitar problemas, seguir las reglas básicas.</li>
+                                 <li>**Proactiva = Hacer el bien:** Usar tu profesión para mejorar las cosas, tener buenas intenciones y buen juicio.</li>
+                                 <li>**Las reglas no bastan:** Para ser un gran ingeniero, no solo debes seguir las reglas, sino tener "virtudes" como buen juicio y compromiso.</li>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </details>
+            <details>
+                <summary>¿Cuáles son los cinco niveles (aspectos) de las virtudes éticas?</summary>
+                 <div class="answer-content">
+                    <div class="answer-toggle">
+                        <button class="active" onclick="showAnswer(this, 'technical')">Respuesta Técnica</button>
+                        <button onclick="showAnswer(this, 'simple')">Respuesta Sencilla</button>
+                    </div>
+                    <div class="answer-version technical-answer" style="display: block;">
+                         <p>Los cinco aspectos relevantes de la ética de las virtudes para la ingeniería son:</p>
+                        <ol>
+                            <li><strong>Disposición (*Disposition*):</strong> Es un rasgo de carácter estable y multi-vía (*multi-track*), arraigado, que incluye emociones, percepciones, actitudes, etc.</li>
+                            <li><strong>Satisfacción:</strong> Vivir virtuosamente produce satisfacción al ser congruente con la autoimagen y los valores profesionales.</li>
+                            <li><strong>Sabiduría Práctica (*Practical Wisdom*):</strong> Requiere juicio y experiencia adquiridos con el tiempo para aplicar correctamente las virtudes.</li>
+                            <li><strong>Clasificación:</strong> Se dividen en virtudes **Técnicas** (ligadas a la experticia) y **No Técnicas** (morales: honestidad, integridad, sensibilidad tecno-social, respeto a la naturaleza, compromiso con el bien público).</li>
+                            <li><strong>Retrato de la Virtud (*Virtue Portrait*):** Construcción de un ideal del "buen ingeniero" que encarna las virtudes en alto grado.</li>
+                        </ol>
+                        </div>
+                    <div class="answer-version simple-answer" style="display: none;">
+                        <p>Harris menciona 5 ideas clave sobre las virtudes éticas aplicadas a la ingeniería:</p>
+                         <ol>
+                            <li>**Ser de cierta manera:** Una virtud no es solo una acción, es un **rasgo de tu carácter**, algo que eres de forma estable (ej. ser honesto siempre, no solo a veces).</li>
+                            <li>**Te hace sentir bien:** Actuar según tus virtudes te da **satisfacción** porque sientes que eres fiel a ti mismo como profesional.</li>
+                            <li>**Se aprende con la experiencia:** Saber cómo actuar virtuosamente requiere **sabiduría práctica**, que ganas con el tiempo y la experiencia.</li>
+                            <li>**Hay dos tipos:**
+                                <ul>
+                                    <li>**Técnicas:** Ser bueno en lo técnico (ej. **darse cuenta de los riesgos**).</li>
+                                    <li>**No Técnicas:** Ser bueno como persona en tu profesión (ej. **ser honesto, preocuparte por la sociedad, la naturaleza y el bien común**).</li>
+                                </ul>
+                            </li>
+                            <li>**El modelo del "buen ingeniero":** Podemos imaginar cómo sería un ingeniero ideal, con todas estas virtudes, para tener un modelo a seguir.</li>
+                         </ol>
+                        </div>
+                </div>
+            </details>
+        </section>
+
+    </div>
+
+    <script>
+        function showAnswer(buttonElement, type) {
+            // Find the parent answer-content div
+            const answerContent = buttonElement.closest('.answer-content');
+            if (!answerContent) return; // Safety check
+
+            // Find the specific answer divs
+            const technicalAnswer = answerContent.querySelector('.technical-answer');
+            const simpleAnswer = answerContent.querySelector('.simple-answer');
+            // Find the buttons
+            const buttons = answerContent.querySelectorAll('.answer-toggle button');
+
+            // Hide both answers
+            if (technicalAnswer) technicalAnswer.style.display = 'none';
+            if (simpleAnswer) simpleAnswer.style.display = 'none';
+
+            // Remove active style from all buttons
+            buttons.forEach(btn => btn.classList.remove('active'));
+
+            // Show the selected answer type
+            if (type === 'technical' && technicalAnswer) {
+                technicalAnswer.style.display = 'block';
+            } else if (type === 'simple' && simpleAnswer) {
+                simpleAnswer.style.display = 'block';
+            }
+            // Add active style to the clicked button
+            buttonElement.classList.add('active');
+        }
+
+        // Initialize first button as active for all questions on load
+        document.addEventListener('DOMContentLoaded', () => {
+            const allToggles = document.querySelectorAll('.answer-toggle');
+            allToggles.forEach(toggle => {
+                const firstButton = toggle.querySelector('button');
+                if (firstButton) {
+                    firstButton.classList.add('active');
+                    // Ensure the corresponding content is shown (it should be by default CSS, but this reinforces it)
+                    const answerContent = toggle.closest('.answer-content');
+                    if (answerContent) {
+                         const technicalAnswer = answerContent.querySelector('.technical-answer');
+                         const simpleAnswer = answerContent.querySelector('.simple-answer');
+                         if (technicalAnswer) technicalAnswer.style.display = 'block';
+                         if (simpleAnswer) simpleAnswer.style.display = 'none';
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
